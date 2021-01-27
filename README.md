@@ -33,3 +33,6 @@ $ apt install nginx
 ```
 Comprobamos que el servicio esta funcionando.  
 ![imagen](imagenes/status.jpg)  
+
+<a name="practicas"></a>
+### 4. Casos Practicos
