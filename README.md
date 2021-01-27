@@ -10,7 +10,7 @@ Es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para prot
 5. [Referencias](#referencias)
 <a name="comparativa"></a>
 ### 1. Nginx vs Apache
-![imagen](Imagenes/comparativa.jpg)
+![imagen](imagenes/comparativa.jpg)
 Nginx y Apache son servidores web populares usados para enviar páginas web al navegador del usuario. En nuestro caso, desde un sitio de WordPress con un host. Datos rápidos:
 
 - Apache fue lanzado primero en 1995, luego llegó Nginx en el 2004.
