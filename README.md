@@ -20,4 +20,7 @@ Nginx y Apache son servidores web populares usados para enviar páginas web al n
 <a name="esquema"></a>
 ### 2. Esquema de Red
 Este sera el esquema de red que vamos a usar para las practicas  
-![imagen](imagenes/esquema.jpg)
+![imagen](imagenes/esquema.jpg)  
+<a name="instalacion"></a>
+### 3. Instalación
+Ahora procederemos a instalar nginx.
