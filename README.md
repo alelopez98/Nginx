@@ -38,3 +38,7 @@ Comprobamos que el servicio esta funcionando.
 ### 4. Casos Practicos
 #### A. Versión de Nginx  
 ![imagen](imagenes/version.jpg)
+#### B. Servicio Asociado
+El servicio es nginx.service
+![imagen](imagenes/status.jpg)
+#### C. Ficheros de Configuración
