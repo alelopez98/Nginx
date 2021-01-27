@@ -43,4 +43,8 @@ El servicio es nginx.service
 ![imagen](imagenes/status.jpg)
 #### C. Ficheros de Configuración
 Los ficheros de configuración de nginx se encuentran en /etc/nginx y el fichero mas importante es nginx.conf  
-![imagen](imagenes/nginx.conf.jpg)
+![imagen](imagenes/nginx.conf.jpg)  
+#### D. Página Web por defecto.  
+Vamos a modificar la pagina web de nginx por defecto, así quedaría
+![imagen](imagenes/pagina.jpg) 
+
