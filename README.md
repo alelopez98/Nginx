@@ -19,5 +19,5 @@ Nginx y Apache son servidores web populares usados para enviar páginas web al n
 - En algunas ocasiones, Nginx ha tenido la ventaja competitiva en términos de desempeño.
 <a name="esquema"></a>
 ### 1. Esquema de Red
-Este sera el esquema de red que vamos a usar para las practicas
-![imagen](imagenes/comparativa.jpg)
+Este sera el esquema de red que vamos a usar para las practicas  
+![imagen](imagenes/esquema.jpg)
