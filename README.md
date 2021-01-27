@@ -39,6 +39,6 @@ Comprobamos que el servicio esta funcionando.
 #### A. Versión de Nginx  
 ![imagen](imagenes/version.jpg)
 #### B. Servicio Asociado
-El servicio es nginx.service
+El servicio es nginx.service  
 ![imagen](imagenes/status.jpg)
 #### C. Ficheros de Configuración
