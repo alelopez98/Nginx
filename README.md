@@ -24,3 +24,13 @@ Este sera el esquema de red que vamos a usar para las practicas
 <a name="instalacion"></a>
 ### 3. Instalación
 Ahora procederemos a instalar nginx.
+
+```
+$ apt update
+```
+
+Y 
+
+```
+$ apt install nginx
+```
