@@ -36,3 +36,5 @@ Comprobamos que el servicio esta funcionando.
 
 <a name="practicas"></a>
 ### 4. Casos Practicos
+## A. Versión de Nginx  
+![imagen](imagenes/version.jpg)
