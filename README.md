@@ -44,9 +44,11 @@ El servicio es nginx.service
 #### C. Ficheros de Configuración
 Los ficheros de configuración de nginx se encuentran en /etc/nginx y el fichero mas importante es nginx.conf  
 ![imagen](imagenes/nginx.conf.jpg)  
-#### D. Página Web por defecto.  
+#### D. Página Web por defecto  
 Vamos a modificar la pagina web de nginx por defecto,los archivos web del servidor por defecto se encuentran en la ruta /var/www/html/.  
 Editamos el fichero index.html.  
 Así quedaría  
 ![imagen](imagenes/pagina.jpg) 
+#### E. Virtual Hosting
+
 
