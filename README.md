@@ -28,9 +28,6 @@ Ahora procederemos a instalar nginx.
 ```
 $ apt update
 ```
-
-Y 
-
 ```
 $ apt install nginx
 ```
