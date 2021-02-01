@@ -67,15 +67,15 @@ web-2.org:
 Salida:  
 ![imagen](imagenes/2.jpg)  
 
-#### F. Autentificación, Autorización y Control de acceso
-www.web-1.org se puede acceder desde la red externa y la red interna.
-www.web-2.org sólo se puede acceder desde la red interna
+#### F. Autentificación, Autorización y Control de acceso  
+www.web-1.org se puede acceder desde la red externa y la red interna.  
+www.web-2.org sólo se puede acceder desde la red interna.  
 
-Para ello añadiremos las siguientes lineas a cada fichero .conf
+Para ello añadiremos las siguientes lineas a cada fichero .conf  
 
-En web1.conf:
+En web1.conf:  
 ![imagen](imagenes/allow1.jpg)  
-En web2.conf:
+En web2.conf:  
 ![imagen](imagenes/allow2.jpg)  
 
 
