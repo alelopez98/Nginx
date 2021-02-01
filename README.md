@@ -78,4 +78,7 @@ En web1.conf:
 En web2.conf:  
 ![imagen](imagenes/allow2.jpg)  
 
+#### G. Autentificación, Autorización y Control de acceso    
+En www.web1.org crearemos un directorio llamado privado.
+Lo configuraremos para que solo puedan acceder usuarios válidos
 
