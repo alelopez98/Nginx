@@ -50,5 +50,15 @@ Editamos el fichero index.html.
 Así quedaría  
 ![imagen](imagenes/pagina.jpg) 
 #### E. Virtual Hosting
+Queremos que nuestro servidor web ofrezca dos sitios web, teniendo en cuenta lo siguiente:
+Cada sitio web tendrá nombres distintos.
+Cada sitio web compartirán la misma dirección IP y el mismo puerto (80).
+Los dos sitios web tendrán las siguientes características:
+
+Web-1.org:
+![imagen](imagenes/web-1.jpg)
+
+Salida:
+![imagen](imagenes/1.jpg)
 
 
