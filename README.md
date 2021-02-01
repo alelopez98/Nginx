@@ -55,10 +55,10 @@ Cada sitio web tendrá nombres distintos.
 Cada sitio web compartirán la misma dirección IP y el mismo puerto (80).
 Los dos sitios web tendrán las siguientes características:
 
-Web-1.org:
+Web-1.org:  
 ![imagen](imagenes/web-1.jpg)
 
-Salida:
+Salida:  
 ![imagen](imagenes/1.jpg)
 
 
