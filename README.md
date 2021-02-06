@@ -90,7 +90,7 @@ server {
 ```
 Salida:  
 
-![imagen](imagenes/1.jpg)
+![imagen](imagenes/salida1.jpg)
 
 En web2.conf permitiremos que solo entre la red 192.168.3.0.
 ```
