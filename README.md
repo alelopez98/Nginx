@@ -64,14 +64,15 @@ $ chown -R www-data:www-data web1
 $ chown -R www-data:www-data web2
 ```
 
-2.- Creamos el index.html para cada página y vemos como sale.
+2.- Creamos web.conf y el html para cada página y despues vemos como sale.
 
 En www.Web-1.org permitiremos que entren la red 192.168.1.0 y red 192.168.3.0.
 ```
 server {
         listen 80;
         listen [::]:80;
-
+        
+        server_name www.web-1.org;
 
         root /var/www/web1;
         index index.html;
@@ -87,13 +88,31 @@ server {
         error_log /var/log/nginx/web1.org-error.log;
 }
 ```
-
 Salida:  
+
 ![imagen](imagenes/1.jpg)
 
-web-2.org:   
-        server_name www.web-1.org;
+En www.Web-2.org permitiremos que solo entre la red 192.168.3.0.
+```
+server {
+        listen 80;
+        listen [::]:80;
 
+        server_name www.web-2.org;
+
+        root /var/www/web2;
+        index index.html;
+
+        location / {
+                try_files $uri $uri/ =404;
+                allow 192.168.3.0/24;
+                deny all;
+        }
+
+        access_log /var/log/nginx/web2.org-access.log;
+        error_log /var/log/nginx/web2.org-error.log;
+}
+```
 
 Salida:  
 ![imagen](imagenes/2.jpg)  
