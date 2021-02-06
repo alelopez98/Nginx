@@ -66,7 +66,7 @@ $ chown -R www-data:www-data web2
 
 2.- Creamos web.conf y el html para cada página y despues vemos como sale.
 
-En www.Web-1.org permitiremos que entren la red 192.168.1.0 y red 192.168.3.0.
+En web2.conf permitiremos que entren la red 192.168.1.0 y red 192.168.3.0.
 ```
 server {
         listen 80;
@@ -92,7 +92,7 @@ Salida:
 
 ![imagen](imagenes/1.jpg)
 
-En www.Web-2.org permitiremos que solo entre la red 192.168.3.0.
+En web2.conf permitiremos que solo entre la red 192.168.3.0.
 ```
 server {
         listen 80;
