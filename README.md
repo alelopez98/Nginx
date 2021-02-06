@@ -124,7 +124,7 @@ www.web-2.org sólo se puede acceder desde la red interna.
 Para ello añadiremos las siguientes lineas a cada fichero .conf  
 
 En web1.conf:  
-![imagen](imagenes/allow1.jpg)  
+![imagen](imagenes/web1-3.0.jpg)  
 En web2.conf:  
 ![imagen](imagenes/allow2.jpg)  
 
