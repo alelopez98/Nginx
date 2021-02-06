@@ -55,6 +55,17 @@ Cada sitio web tendrá nombres distintos.
 Cada sitio web compartirán la misma dirección IP y el mismo puerto (80).
 Los dos sitios web tendrán las siguientes características:
 
+1.- Creamos Directorios y damos los permisos.
+
+```
+$ sudo mkdir /var/www/html/web1
+$ sudo mkdir /var/www/html/web2
+$ chown -R www-data:www-data web1
+$ chown -R www-data:www-data web2
+```
+
+2.- Creamos el index.html para cada página y vemos como sale.
+
 Web-1.org:  
 ![imagen](imagenes/web-1.jpg)
 
