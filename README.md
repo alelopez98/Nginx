@@ -66,14 +66,34 @@ $ chown -R www-data:www-data web2
 
 2.- Creamos el index.html para cada página y vemos como sale.
 
-Web-1.org:  
-![imagen](imagenes/web-1.jpg)
+En www.Web-1.org permitiremos que entren la red 192.168.1.0 y red 192.168.3.0.
+```
+server {
+        listen 80;
+        listen [::]:80;
+
+
+        root /var/www/web1;
+        index index.html;
+
+        location / {
+                try_files $uri $uri/ =404;
+                allow 192.168.3.0/24;
+                allow 192.168.1.0/24;
+                deny all;
+        }
+
+        access_log /var/log/nginx/web1.org-access.log;
+        error_log /var/log/nginx/web1.org-error.log;
+}
+```
 
 Salida:  
 ![imagen](imagenes/1.jpg)
 
 web-2.org:   
-![imagen](imagenes/web-2.jpg)
+        server_name www.web-1.org;
+
 
 Salida:  
 ![imagen](imagenes/2.jpg)  
