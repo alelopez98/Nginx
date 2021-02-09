@@ -6,6 +6,6 @@ Es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para prot
 1. [Nginx vs Apache](https://github.com/alelopez98/Nginx/blob/main/NginxvsApache.md)
 2. [Esquema de Red](https://github.com/alelopez98/Nginx/blob/main/EsquemaRed.md)
 3. [Instalacion](https://github.com/alelopez98/Nginx/blob/main/Instalacion.md)
-4. [Casos practicos](#practicas)
+4. [Casos practicos](https://github.com/alelopez98/Nginx/blob/main/CasosPracticos.md)
 5. [Referencias](#referencias)
 
