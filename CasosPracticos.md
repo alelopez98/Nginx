@@ -1,8 +1,8 @@
-### 4. Casos Practicos
-#### A. Versión de Nginx  
+## 4. Casos Practicos
+### A. Versión de Nginx  
 ![imagen](imagenes/version.jpg)
-#### B. Servicio Asociado
-El servicio es nginx.service  
+### B. Servicio Asociado
+#### El servicio es nginx.service  
 ![imagen](imagenes/status.jpg)
 #### C. Ficheros de Configuración
 Los ficheros de configuración de nginx se encuentran en /etc/nginx y el fichero mas importante es nginx.conf  
