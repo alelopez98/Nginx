@@ -117,7 +117,7 @@ server {
 Salida:  
 ![imagen](imagenes/2.jpg)  
 
-#### F. Autentificación, Autorización y Control de acceso  
+#### F. Autentificación, Autorización y Control de acceso ( Ejercicio 1)  
 www.web-1.org se puede acceder desde la red externa y la red interna.  
 www.web-2.org sólo se puede acceder desde la red interna.  
 
@@ -128,7 +128,7 @@ En web1.conf:
 En web2.conf:  
 ![imagen](imagenes/allow2.jpg)  
 
-#### G. Autentificación, Autorización y Control de acceso    
+#### G. Autentificación, Autorización y Control de acceso  ( Ejercicio 2 )
 En www.web1.org crearemos un directorio llamado privado.
 Lo configuraremos para que solo puedan acceder usuarios válidos
 
@@ -150,4 +150,12 @@ $ htpasswd -c -m htpasswd alejandro
 Acceso con el usuario alejandro:  
 ![imagen](imagenes/Acceso.jpg)  
 Vista de la página:  
-![imagen](imagenes/VistaPrivado.jpg)
+![imagen](imagenes/VistaPrivado.jpg)  
+#### H. Autentificación, Autorización y Control de acceso ( Ejercicio 3 )  
+Desde la Red externa pide autenticacion al directorio privado,pero desde la red interna no.
+1.- Modificamos el fichero web1.conf:  
+![imagen](imagenes/fichero2.jpg)  
+2.- Comprobamos desde red externa:  
+![imagen](imagenes/externa.jpg)  
+3.- Comprobamos desde red interna:  
+![imagen](imagenes/interna.jpg)  
