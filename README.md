@@ -132,13 +132,22 @@ En web2.conf:
 En www.web1.org crearemos un directorio llamado privado.
 Lo configuraremos para que solo puedan acceder usuarios válidos
 
-1.- Creamos la carpeta "privado" en /var/www/web1/:
+1.- Creamos la carpeta "privado" en /var/www/web1/ y añadimos un index.html con el texto que queramos:
 ```
 $ cd /var/www/web1
 $ mkdir privado
 ```
-2.- Dentro de /etc/nginx/ creamos las credenciales
+2.- Dentro de /etc/nginx/claves creamos las credenciales:
 ```
 $ htpasswd -c -m htpasswd usuario1
 ```
-
+```
+$ htpasswd -c -m htpasswd alejandro
+```
+3.-Editamos nuestro web1.conf añadiendo las siguientes lineas:  
+![imagen](imagenes/fichero.jpg)  
+4.- Finalmente comprobamos que podemos acceder con los usuarios
+Acceso con el usuario alejandro:  
+![imagen](imagenes/acceso.jpg)  
+Vista de la página:  
+![imagen](imagenes/VistaPrivado.jpg)
