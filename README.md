@@ -159,3 +159,15 @@ Desde la Red externa pide autenticacion al directorio privado,pero desde la red 
 ![imagen](imagenes/externa.jpg)  
 3.- Comprobamos desde red interna:  
 ![imagen](imagenes/interna.jpg)  
+#### I. Seguridad
+Configura el sitio virtual www.web-1.org para que el acceso sea seguro.  
+1.- Creamos una carpeta para guardar los certificados e instalamos openssl.  
+![imagen](imagenes/Certificados.jpg)  
+2.- Ahora generaremos una clave para www.web-1.org.  
+![imagen](imagenes/Certificados2.jpg)  
+3.- Generamos el Certificado.  
+![imagen](imagenes/Certificados3.jpg)  
+4.- Firmamos el Certificado.  
+![imagen](imagenes/Certificados4.jpg)  
+
+
