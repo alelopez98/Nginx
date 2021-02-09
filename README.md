@@ -148,6 +148,6 @@ $ htpasswd -c -m htpasswd alejandro
 ![imagen](imagenes/fichero.jpg)  
 4.- Finalmente comprobamos que podemos acceder con los usuarios
 Acceso con el usuario alejandro:  
-![imagen](imagenes/acceso.jpg)  
+![imagen](imagenes/Acceso.jpg)  
 Vista de la página:  
 ![imagen](imagenes/VistaPrivado.jpg)
